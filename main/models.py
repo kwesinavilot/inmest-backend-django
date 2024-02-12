@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User  # Assuming IMUser inherits from User
+from users.models import Cohort
 
 class Course(models.Model):
     name = models.CharField(max_length=1000)

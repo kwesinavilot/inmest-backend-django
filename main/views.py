@@ -82,5 +82,4 @@ class QueryView(View):
     def get(self, request):
         return JsonResponse({"response": self.books[0]})
     
-    def post(self, request):
-        
+    # def post(self, request):
